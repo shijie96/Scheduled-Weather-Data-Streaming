@@ -1,0 +1,13 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-functions==1.23.0
+azure-eventhub==5.15.0
+azure-identity==1.23.0
+azure-keyvault-secrets==4.10.0
+azure-core>=1.31.0  # Updated to satisfy both dependencies
+azure-storage-file-datalake==12.16.0
+requests==2.31.0
+datetime
