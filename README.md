@@ -88,6 +88,8 @@ Access to a weather API (https://www.weatherapi.com/)
 - Create linked services to Data Lake and Synapse
 
 - Import pipelines from the repo
+
+- Pipeline will be triggered every 12 hours. 
 ![alt text](dataflow_pipeline-1.png) ![alt text](dataflow-1.png)
 
 **6. Set Up Synapse Serverless SQL Pool**
@@ -103,3 +105,18 @@ Access to a weather API (https://www.weatherapi.com/)
 - Update the SQL Server connection string
 
 - Publish to Power BI service (optional)
+
+- To optimize costs, the dashboard refreshes every 8 hours at the following times:
+
+  -- 12:00 AM
+
+  -- 8:00 AM
+
+  -- 4:00 PM
+
+- Scan the QR code below to access the dashboard:
+
+![alt text](WeatherDashboard-1.jpg)
+
+- The dashboard appears as shown below:
+![alt text](image-1.png)
