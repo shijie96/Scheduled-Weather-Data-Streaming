@@ -1,4 +1,4 @@
-# Realtime-Weather-Data-Streaming
+# Scheduled-Weather-Data-Streaming
 This project implements a real-time data streaming pipeline that continuously fetches weather data from an external API and stream it into Azure for downstreaming processing and analytics. The pipeline is designed to be **scalable**, **fault-tolerant**, **cost-efficient** and suitable for real-time dashboard or big data processing. 
 
 ## Project Overview
@@ -29,7 +29,7 @@ The objective is to build an end-to-end pipeline that:
 3. An eventhub trigger **Azure Function** writes the data into **Data Lake Storage Gen2** in hierarchical folders (e.g., by region and timestamp).
 4. **Azure Data Factory** performs batch transformations to clean and standardize the schema.
 5. **Synapse Serverless** reads the data via external tables and SQL views.
-6. **Power BI** connects to the SQL endpoint and refreshes the dashboard in near real-time.
+6. **Power BI** connects to the SQL endpoint and refreshes the dashboard.
 
 
 ## Project Structure
