@@ -90,7 +90,7 @@ Access to a weather API (https://www.weatherapi.com/)
 - Import pipelines from the repo
 
 - Pipeline will be triggered every 8 hours. 
-![alt text](image-2.png) ![alt text](image-3.png)![alt text](dataflow-1.png)
+![alt text](image-2.png) ![alt text](image-3.png)![alt text](image-4.png)
 
 **6. Set Up Synapse Serverless SQL Pool**
 
