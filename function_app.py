@@ -10,11 +10,11 @@ from azure.storage.filedatalake import DataLakeServiceClient
 from datetime import datetime, timedelta
 from timer_func import timer_bp
 from eventhub_func import eventhub_bp
+from DataTransform import DataTransform
 
 
 app = func.FunctionApp()
 
 app.register_functions(timer_bp)
 app.register_functions(eventhub_bp)
-
-
+app.register_functions(DataTransform)
