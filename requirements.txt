@@ -11,3 +11,5 @@ azure-core>=1.31.0  # Updated to satisfy both dependencies
 azure-storage-file-datalake==12.16.0
 requests==2.31.0
 datetime
+io
+pandas
